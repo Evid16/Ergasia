@@ -8,14 +8,14 @@ class MainTest {
 		
 		Main tester = new Main();
 		
-		/* Περίπτωση όπου a=5 > b=4 άρα περιμένουμε να τυπωθεί POSITIVE */ 
-		assertEquals("POSITIVE", tester.sub(5, 4));
+		/* Περίπτωση όπου a=8 > b=3 άρα περιμένουμε να τυπωθεί POSITIVE */ 
+		assertEquals("POSITIVE", tester.sub(8, 3));
 		
-		/* a=2 < b=6 άρα περιμένουμε να τυπωθεί NEGATIVE */
-		assertEquals("NEGATIVE", tester.sub(2, 6));
+		/* a=3 < b=15 άρα περιμένουμε να τυπωθεί NEGATIVE */
+		assertEquals("NEGATIVE", tester.sub(3, 15));
 		
-		/* a=b=10 άρα περιμένουμε να τυπωθεί ZERO */
-		assertEquals("ZERO", tester.sub(10, 10));
+		/* a=b=20 άρα περιμένουμε να τυπωθεί ZERO */
+		assertEquals("ZERO", tester.sub(20, 20));
 	}
 	
 }
